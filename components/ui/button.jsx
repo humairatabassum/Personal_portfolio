@@ -9,9 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-purple-500 text-primary-foreground hover:bg-purple-400",
+        default: "bg-purple-400 text-primary-foreground hover:bg-purple-300",
         primary: "bg-primary text-white",
-        outline: " border border-purple-500 bg-transparent text-purple-500 hover:bg-purple-500 hover:text-primary"
+        outline: " border border-purple-400 bg-transparent text-purple-400 hover:bg-purple-400 hover:text-primary"
         
       },
       size: {

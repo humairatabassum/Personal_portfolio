@@ -12,8 +12,8 @@ export const Photo = () => {
                 
                 
                 <motion.div initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeInOut" } }} className="w-[285px] h-[285px] 
-                xl:w-[470px] xl:h-[470px] mix-blend-lighten absolute z-50 translate-y-3 translate-x-3">
+                    animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeInOut" } }} className="w-[265px] h-[265px] 
+                xl:w-[470px] xl:h-[470px] mix-blend-lighten absolute translate-y-3 translate-x-4">
                     
                     <Image src="/assets/resume/imgDp1.png"
                         priority quality={100}
