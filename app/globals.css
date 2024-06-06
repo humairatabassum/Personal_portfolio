@@ -36,7 +36,7 @@
     }
 
     .dark {
-      --background: 222.2 84% 4.9%;
+      --background: 222.2 90% 3.5%;
       --foreground: 210 40% 98%;
 
       --card: 222.2 84% 4.9%;
@@ -73,5 +73,15 @@
     body {
       @apply bg-background text-foreground dark leading-loose;
       @apply font-primary;
+    }
+
+    h1{
+      @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+    }
+    h2{
+      @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+    }
+    h3{
+      @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
     }
   }
