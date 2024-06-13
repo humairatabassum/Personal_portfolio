@@ -40,7 +40,9 @@ const Services = () => {
         opacity: 1,
         transition:{ delay:2.4, duration:0.4, ease:'easeIn'},
         }}
-        className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+          className="grid md:grid-cols-4 grid-cols-2 gap[60px]">
+          
+
           {services.map((service, index) => {
           return (
             <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
@@ -53,7 +55,10 @@ const Services = () => {
 
               <h2>{service.title}</h2>
               
-              <p>{ service.description}</p>
+              <p>{service.description}</p>
+              
+              <div className="border-b border-white/20 w-full">
+              </div>
             </div>
           )
         })}
